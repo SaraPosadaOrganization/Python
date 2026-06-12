@@ -1,5 +1,5 @@
 # Informacion de mi pelicula favorita
-titulo = "What We Do in the Shadows"
+titulo = "Lo que hacemos en las sombras"
 director = "Taika Waititi y Jemaine Clement"
 ano_lanzamiento = 2014
 genero = "Comedia de terror / Falso documental"
@@ -17,10 +17,7 @@ print("Premios:", tiene_premios)
 # Cambiar los datos al ingles
 titulo = "What We Do in the Shadows"
 director = "Taika Waititi and Jemaine Clement"
-ano_lanzamiento = 2014
 genero = "Horror Comedy/Mockumentary"
-duracion_minutos = 86
-tiene_premios = True
 
 # Mostrar información nuevamente
 print("Title:", titulo)
