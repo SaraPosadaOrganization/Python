@@ -15,7 +15,7 @@ print("Tiene una duración de (segundos)", duracion)
 print("Videoclip", videoclip)
 
 #Obtener valores introducidos por la usuaria sobre la canción que menos le guste
-titulo = input("¿Cual es la canción que menos te gusta?")
+titulo = input("¿Cual es la canción que menos te gusta? ")
 artista = input("¿Qué artista la compuso? ")
 album = input("¿A qué album pertenece? ")
 ano = int(input("Año de lanzamiento "))
