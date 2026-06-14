@@ -1,16 +1,16 @@
 def mensaje_color(color):
     if color == "rojo":
-        return "Pasión y energía."
+        return "Pasión y energía"
     elif color == "verde":
-        return "Esperanza y crecimiento."
+        return "Esperanza y crecimiento"
     elif color == "azul":
-        return "Calma y serenidad."
+        return "Calma y serenidad"
     elif color == "amarillo":
-        return "Felicidad y optimismo."
+        return "Felicidad y optimismo"
     elif color == "morado":
-        return "Sabiduría y creatividad."
+        return "Sabiduría y creatividad"
     else:
-        return "Color no válido."
+        return "Color no válido"
  
  # Pedimos el color a la usuaria
 color_elegido = input("Elige un color: ")
