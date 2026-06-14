@@ -6,15 +6,14 @@ def calcular_nota_media():
     
 # Solicitamos cada nota
     for i in range(total_notas):
-        nota = float(input(f"Introduce la nota {i + 1}: "))
+        nota = float(input("Nota: "))
 
 # Suma todas las notas
         suma_notas += nota
     
-# Devuleve la nota media
+# Devuelve la nota media
     media = suma_notas / total_notas
     return media
 
 # Imprime la nota por pantalla 
-nota_final = calcular_nota_media()
-print(f"La nota media es: {nota_final}")
+print("La nota media es:", calcular_nota_media())
