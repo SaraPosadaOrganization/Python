@@ -1,4 +1,6 @@
 def mensaje_color(color):
+    # Pasamos el color a minúscula para comparar
+    color = color.lower()
     if color == "rojo":
         return "Pasión y energía"
     elif color == "verde":
@@ -13,7 +15,7 @@ def mensaje_color(color):
         return "Color no válido"
  
  # Pedimos el color a la usuaria
-color_elegido = input("Elige un color: ")
+color_elegido = input("Elige un color: rojo, verde, azul, amarillo o morado ")
 
 # Obtenemos el mensaje
 mensaje = mensaje_color(color_elegido)
