@@ -1,19 +1,19 @@
-# Pedimos a la usuaria cuántas notas desea introducir
-def calcular_nota_media():
-    total_notas = int(input("¿Cuántas notas deseas introducir?: "))
-    
-    suma_notas = 0
-    
-# Solicitamos cada nota
-    for i in range(total_notas):
-        nota = float(input("Nota: "))
+def _nota_media(n_notas):
+    suma = 0
+    # Suma todas las notas mientras las va pidiendo el número de veces indicado
+    for i in range (n_notas):
+        print("Introduce la nota " +str(i+1))
+        suma += float(input())
 
-# Suma todas las notas
-        suma_notas += nota
-    
-# Devuelve la nota media
-    media = suma_notas / total_notas
-    return media
+    # Cuando termina de sumar, calcula la nota media
+    nota_media = suma/n_notas
+    return nota_media
 
-# Imprime la nota por pantalla 
-print("La nota media es:", calcular_nota_media())
+
+pregunta = "¿Cuántas notas deseas introducir?"
+print (pregunta)
+respuesta = int(input())
+
+# Imprime la nota por pantalla
+notas = _nota_media(respuesta)
+print("La nota media es ", notas)
